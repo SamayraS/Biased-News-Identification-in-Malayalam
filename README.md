@@ -53,7 +53,7 @@ This project identifies coverage and demographic bias in Malayalam digital news 
 from analysis import BiasAnalyzer
 analyzer = BiasAnalyzer(articles)
 geo_bias = analyzer.calculate_geographic_bias()
-```
+
 
 ## ⚠️ Limitations
 
