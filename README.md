@@ -49,25 +49,6 @@ This project identifies coverage and demographic bias in Malayalam digital news 
 - **Geographic Distribution:** Significant disparity in regional coverage
 - **Content Categories:** Politics, crime, and entertainment dominate coverage
 
-## 🔧 Installation
-
-```bash
-# Clone repository
-git clone https://github.com/username/malayalam-news-bias-detection.git
-cd malayalam-news-bias-detection
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## 💻 Usage
-
-```python
-# Basic scraping
-from scrapers import MalayalamNewsScraper
-scraper = MalayalamNewsScraper()
-articles = scraper.scrape_all_sources(days=7)
-
 # Bias analysis
 from analysis import BiasAnalyzer
 analyzer = BiasAnalyzer(articles)
